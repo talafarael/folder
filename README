@@ -1,0 +1,32 @@
+Node.js Recursive File and Folder Generator
+Description
+This Node.js application automatically creates nested folders and files based on specified parameters. The application allows you to configure the number of files and the level of folder nesting, and it also includes a function to read and count the content of files.
+
+Installation
+Before running the application, ensure that you have Node.js installed. Then, execute the following commands to install dependencies and run the application:
+
+bash
+
+npm install
+node index.js
+Parameters
+number: This variable controls the number of files to be created in each folder. It starts from 1 and goes up to the value you set for this variable.
+
+jumpFol: This variable controls the nesting level of folders. The application will create folders up to this depth.
+
+Functions
+rec: A recursive function that creates folders and files based on the number and jumpFol parameters.
+
+readFile: This function reads and counts the content of file.txt and logs the result to the console.
+
+Usage
+After configuring the index.js file with your desired values for number and jumpFol, run the application with:
+
+bash
+Копіювати код
+node index.js
+This will generate the folders and files according to your settings.
+
+Example
+If you set number = 5 and jumpFol = 3, the application will create a structure where each folder contains 5 files, and the folders will be nested up to 3 levels deep.
+
