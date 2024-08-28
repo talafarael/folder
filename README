@@ -23,7 +23,7 @@ Usage
 After configuring the index.js file with your desired values for number and jumpFol, run the application with:
 
 bash
-Копіювати код
+
 node index.js
 This will generate the folders and files according to your settings.
 
